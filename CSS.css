@@ -1,0 +1,118 @@
+/* Main Font and background*/
+body {
+  font-family: Arial, sans-serif; /*Font*/
+  margin: 0; /*lengte tussen andere dingen*/
+  padding: 0; /*Space between border*/
+  background-color: #f7c8f6;
+  background-image: linear-gradient(white, #f7c8f6);
+}
+/*For the header*/
+header {
+  background-color: white;
+  color: #f5b5f3; /*tekstkleur*/
+  text-align: center; /*text in het midden*/
+  padding: 10px 0;
+}
+/*etc*/
+/*For the little boxes you see*/
+.container {
+  max-width: 90%;
+  width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.content {
+  background-color: #f7c8f6;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+/*Make it go to the center*/
+.center {
+ margin: 0 auto;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
+/*Normal font for text etc*/
+p, li {
+  font-family: Arial;
+  font-size: 130%;
+}
+/*for the twitch box*/
+.advertisement {
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 400px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+/*For the collored boxes*/
+.discord, .youtube, .deviantart, .tiktok, .twitter {
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 20px auto;
+  overflow: hidden;
+  max-width: 90%;
+  width: 900px;
+}
+
+.discord {
+  background-color: #7289DA;
+}
+
+.youtube {
+  background-color: #FF0000;
+}
+
+.deviantart {
+  background-color: limegreen;
+}
+
+.tiktok {
+  background-color: #000000;
+}
+
+.twitter {
+  background-color: #31e8eb;
+}
+/*Links & images (and also a header)*/
+.link {
+  color: #6e38c9;
+  text-decoration: none;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.image {
+  max-width: 100px;
+}
+
+.image2 {
+  max-width: 500px;
+  width: 100%;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.twitch-logo {
+  width: 100px;
+}
+
+.button { /*Button*/
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #9146ff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
