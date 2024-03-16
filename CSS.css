@@ -9,9 +9,10 @@ body {
 /*For the header*/
 header {
   background-color: white;
-  color: #f5b5f3; /*tekstkleur*/
+  color: #c28fc0; /*tekstkleur*/
   text-align: center; /*text in het midden*/
   padding: 10px 0;
+  background-image: linear-gradient(white, rgb(255, 211, 233));
 }
 /*etc*/
 /*For the little boxes you see*/
